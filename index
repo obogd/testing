@@ -2,12 +2,89 @@
 <html>
 
   <head>
+  	<title>Fitness</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
 
   <body>
-    <h1>Hello GitHub!</h1>
+    <header>
+    	<img src="#" alt="logo">
+    	<nav>
+    		<ul>
+    			<li><a href="#">About</a></li>
+    			<li><a href="#">How it works</a></li>
+    			<li><a href="#">Services</a></li>
+    			<li><a href="#">FAQ</a></li>
+    			<li><a href="#">Contact</a></li>
+    		</ul>
+    	</nav>
+    	<h1>Fitness in a can</h1>
+    	<h2>Yes you can</h2>
+    </header>
+    <main>
+    	<ul>
+    		<li><section>
+    			<img src="#">
+    			<h2>Resources</h2>
+    			<p>Test text test text</p>
+    			<a href="#">Explore more</a>
+    		</section></li>
+    		<li><section>
+    			<img src="#">
+    			<h2>Training</h2>
+    			<p>Test text test text</p>
+    			<a href="#">Browse trainings</a>
+    		</section></li>
+    		<li><section>
+    			<img src="#">
+    			<h2>Connect</h2>
+    			<p>Test text test text</p>
+    			<a href="#">Connect now</a>
+    		</section></li>
+    		<li><section>
+    			<img src="#">
+    			<h2>Communicate</h2>
+    			<p>Test text test text</p>
+    			<a href="#">Start now</a>
+    		</section></li>
+    	</ul>
+    	<div>
+    		<div>
+    			<div>
+    				<h4>It's all about</h4>
+    				<h3>Fitness first</h3>
+    				<img src="#">
+    				<p>test text test text</p>
+    				<a href="#">Read more</a>
+    			</div>
+    			<img src="#">
+    		</div>
+    		<div>
+    			<img src="#">
+    			<div>
+    				<h4>Love your</h4>
+    				<h3>Your body</h3>
+    				<img src="#">
+    				<p>test text test text</p>
+    				<a href="#">Read more</a>
+    			</div>
+    		</div>
+    	</div>
+    </main>
+    <footer>
+    	<form action="#" method="post">
+    		<input type="text" placeholder="Your name" />
+    		<input type="text" placeholder="Your email" />
+    		<button>Join newsletter</button>
+    	</form>
+    	<ul>
+    		<li><a href="#"><img src="#"></a></li>
+    		<li><a href="#"><img src="#"></a></li>
+    		<li><a href="#"><img src="#"></a></li>
+    		<li><a href="#"><img src="#"></a></li>
+    	</ul>
+    </footer>
   </body>
 
 </html>
