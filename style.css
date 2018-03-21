@@ -185,6 +185,7 @@
 	font-size: 14px;
 	padding-left: 20px;
 	padding-right: 20px;
+<<<<<<< HEAD
 	font-family: 'OpenSans';
 	font-weight: 400;
 }
@@ -325,3 +326,8 @@ display: flex;
 	height: 50px;
 	width: 50px;	
 }
+=======
+
+}
+
+>>>>>>> d3baaa1107864a601519f3757465069ee89ef509
