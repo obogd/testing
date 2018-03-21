@@ -1,14 +1,64 @@
+@font-face {
+	src: url(./fonts/OpenSans/OpenSans-Regular.ttf);
+	font-family: 'OpenSans';
+	font-weight: 400;
+}
+
+@font-face {
+	src: url(./fonts/OpenSans/OpenSans-Light.ttf);
+	font-family: 'OpenSans';
+	font-weight: 100;
+}
+
+@font-face {
+	src: url(./fonts/OpenSans/OpenSans-Bold.ttf);
+	font-family: 'OpenSans';
+	font-weight: 700;
+}
+
+@font-face {
+	src: url(./fonts/AvenirNext/AvenirNextCyr-Regular.woff);
+	font-family: 'AvenirNext';
+	font-weight: 400;
+}
+
+@font-face {
+	src: url(./fonts/AvenirNext/AvenirNextCyr-Medium.woff);
+	font-family: 'AvenirNext';
+	font-weight: 300;
+}
+
+@font-face {
+	src: url(./fonts/ProximaNova/ProximaNova-Reg.otf);
+	font-family: 'ProximaNova';
+	font-weight: 300;
+}
+
+@font-face {
+	src: url(./fonts/ProximaNova/ProximaNova-Semibold.woff);
+	font-family: 'ProximaNova';
+	font-weight: 600;
+}
+
+@font-face {
+	src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
+	font-family: 'Montserrat';
+	font-weight: 400;
+}
+
 .main-menu{
   display: flex;
   justify-content: space-between;
   width: 500px;
-  list-style: none;
+  list-style: none;  
 }
 
 .menu-link {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 13px;
+    font-family: 'AvenirNext';
+	font-weight: 300;
 }
 
 .link {
@@ -38,6 +88,8 @@
 	margin-top: 300px;
 	margin-left: 50px;
 	text-transform: uppercase;
+	font-family: 'AvenirNext';
+    font-weight: 400;
 }
 
 .subtitle {
@@ -45,6 +97,8 @@
 	font-size: 15px;
 	margin-left: 200px;
 	text-transform: uppercase;
+	font-family: 'OpenSans';
+	font-weight: 700;
 }
 
 .main{
@@ -67,15 +121,21 @@
 	color: #fff;
 	font-size: 14px;
 	text-decoration: none;
+	font-family: 'ProximaNova';
+	font-weight: 300;
 }
 
 .benefits-title {
 	font-size: 24px;
+	font-family: 'OpenSans';
+	font-weight: 400;
 }
 
 .benefits-text {
 	font-size: 14px;
 	padding-right: 20px;
+	font-family: 'ProximaNova';
+	font-weight: 300;
 }
 
 .product-block {
@@ -100,6 +160,8 @@
 	text-transform: uppercase;
 	margin: 0 auto;
 	padding-top: 60px;
+	font-family: 'Montserrat';
+	font-weight: 400;
 }
 
 .product-block-text-title {
@@ -107,11 +169,15 @@
 	font-size: 35px;
 	text-transform: uppercase;
 	margin: 0 auto;
+	font-family: 'OpenSans';
+	font-weight: 100;
 }
 
 .product-block-link {
 	color: #a2ca28;
 	font-size: 14px;
+	font-family: 'OpenSans';
+	font-weight: 400;
 }
 
 .product-block-p {
@@ -119,4 +185,143 @@
 	font-size: 14px;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: 'OpenSans';
+	font-weight: 400;
+}
+
+.drop {
+	height: 25px;
+	padding-top: 20px;
+}
+.footer{
+  background: #000;  
+  padding-bottom: 60px;
+  padding-top: 50px;
+ }
+
+.footer-block {
+display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  padding-left: 0; 
+}
+
+.my-input {
+	padding: 10px;
+	color: #ccc;
+	border-radius: 4px;
+	border: 0;
+	border-width: 0;
+	font-size: 14px;
+	font-family: 'ProximaNova';
+	font-weight: 300;
+}
+
+.my-button {
+  background: #a2ca28;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 40px;
+  position: relative;
+  border-radius: 4px;
+  border: 0;
+  border-width: 0;
+  font-size: 15px;
+  font-family: 'ProximaNova';
+	font-weight: 600;  
+}
+
+.my-button:after{
+  content: '';
+  display: inline-block;
+  background-image: url('./images/arrow.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+}
+
+.footer-media {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+}
+
+.media {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-left: 20px;
+  position: relative;
+}
+
+.media-fb {
+  background: #2e3192;
+}
+
+.media-fb::before {
+  content: '';
+  background-image: url('./images/fb.png');
+  width: 11px;
+  display: block;
+  height: 19px;
+  position: absolute;
+  top: 15px;
+  left: 19px;
+}
+
+
+.media-tw {
+  background: #00aeef;
+}
+
+.media-tw::before {
+  content: '';
+  background-image: url('./images/tw.png');
+  width: 19px;
+  display: block;
+  height: 16px;
+  position: absolute;
+  top: 17px;
+  left: 15px;
+}
+
+.media-yt {
+  background: #ed3123;
+}
+
+.media-yt::before {
+  content: '';
+  background-image: url('./images/yt.png');
+  width: 21px;
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 17px;
+  left: 14px;
+}
+
+.media-in {
+	background: #171a8f;
+}
+
+.media-in::before {
+  content: '';
+  background-image: url('./images/in.png');
+  width: 18px;
+  display: block;
+  height: 18px;
+  position: absolute;
+  top: 13px;
+  left: 15px;
+}
+
+.media-link {	
+	display: block;
+	height: 50px;
+	width: 50px;	
 }

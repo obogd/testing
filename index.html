@@ -3,6 +3,7 @@
 
   <head>
   	<title>Fitness</title>
+  	<link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
     <script src="script.js"></script>
   </head>
@@ -57,7 +58,7 @@
     			<div class="product-block-text">
     				<h5 class="product-block-text-subtitle">It's all about</h4>
     				<h4 class="product-block-text-title">Fitness first</h3>
-    				<img src="./images/icon5.svg">
+    				<img class="drop" src="./images/icon5.svg">
     				<p class="product-block-p">test text test text Test text test text Test text test text Test text test text</p>
     				<a class="product-block-link" href="#">Read more</a>
     			</div>
@@ -68,7 +69,7 @@
     			<div class="product-block-text">
     				<h5 class="product-block-text-subtitle">Love your</h4>
     				<h4 class="product-block-text-title">Your body</h3>
-    				<img src="./images/icon5.svg">
+    				<img class="drop" src="./images/icon5.svg">
     				<p class="product-block-p">test text test text Test text test text Test text test text Test text test text</p>
     				<a class="product-block-link" href="#">Read more</a>
     			</div>
@@ -76,18 +77,20 @@
     	</div>
        </section>
     </main>
-    <footer>
-    	<form action="#" method="post">
-    		<input type="text" placeholder="Your name" />
-    		<input type="text" placeholder="Your email" />
-    		<button>Join newsletter</button>
+    <footer class="footer">
+    	<div class="footer-block">
+    	   	<form action="#" method="post">
+    		<input class="my-input" type="text" placeholder="Your name" />
+    		<input class="my-input" type="text" placeholder="Your email" />
+    		<button class="my-button" type="submit">Join newsletter</button>
     	</form>
-    	<ul>
-    		<li><a href="#"><img src="#"></a></li>
-    		<li><a href="#"><img src="#"></a></li>
-    		<li><a href="#"><img src="#"></a></li>
-    		<li><a href="#"><img src="#"></a></li>
+    	<ul class="footer-media">
+    		<li class="media media-fb"><a class="media-link" href="#"></a></li>
+    		<li class="media media-tw"></li>
+    		<li class="media media-yt"></li>
+    		<li class="media media-in"></li>
     	</ul>
+    </div>
     </footer>
   </body>
 
